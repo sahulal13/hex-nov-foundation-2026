@@ -1,0 +1,9 @@
+1. BFS :
+
+C: -> Users -> Program Files -> Imtiyaz -> Public -> Java -> Documents -> Downloads
+
+2.DFS:
+
+C: -> Users -> Imtiyaz -> Documents -> Downloads -> Java -> Public -> Program Files
+
+3. Since there are 2 ways the java can be accessed in 2 different paths, without a visited check multiple instances of java can be running at the same time and may cause loops as well.

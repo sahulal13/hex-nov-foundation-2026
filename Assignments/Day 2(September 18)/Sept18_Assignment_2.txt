@@ -1,0 +1,13 @@
+1.PreOrder Traversal:
+	50 30 20 40 70 60 65 80
+
+2.Inorder Traversal:
+	20 30 40 50 60 65 70 80
+
+3.Postorder Traversal:
+	20 40 30 65 60 80 70 50
+
+4. Inorder traversal gives the numbers in sorted order because the given tree is a binary tree where the left child of a node is always smaller than the node and the right child of the node is always greater than the node. Since inorder traversal performs traversal in the order of:
+Left child -> Parent Node -> Right child.
+
+We get the numbers in a sorted order.

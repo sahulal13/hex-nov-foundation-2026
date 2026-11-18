@@ -23,18 +23,13 @@ public class Sept16_Assignment5 {
             System.out.print("Enter your choice: ");
             int choice;
 
-            choice = Integer.parseInt(sc.nextLine());
+            choice = sc.nextInt();
 
             switch (choice) {
                 case 1:
 
                     System.out.print("Enter learner name: ");
-                    String name = sc.nextLine().trim();
-
-                    if (name.isEmpty()) {
-                        System.out.println("Name cannot be empty.");
-                        break;
-                    }
+                    String name = sc.nextLine();
 
                     boolean enrolled = false;
                     for (int i = 0; i < seats.length; i++) {
